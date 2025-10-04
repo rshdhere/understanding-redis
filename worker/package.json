@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc -b && node dist/worker.js",
+    "dev": "npx ts-node-dev src/worker.ts",
     "build": "tsc -b",
     "start": "node dist/worker.js"
   },
